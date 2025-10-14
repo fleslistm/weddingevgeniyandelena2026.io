@@ -207,7 +207,7 @@ img {
 
 /* RSVP */
 .rsvp {
-  background: var(--light);
+  background: var(--bg);
   padding: 40px 30px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
@@ -289,3 +289,4 @@ footer {
   .hero p { font-size: 2rem; }
 
 }
+
