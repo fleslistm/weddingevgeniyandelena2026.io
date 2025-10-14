@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Евгений & Елена — Свадебное приглашение</title>
+<link rel="shortcut icon" href="https://img.icons8.com/external-wanicon-lineal-wanicon/64/FFFFFF/external-rings-valentines-day-wanicon-lineal-wanicon.png"  type="image/png">
+  <!-- Шрифты -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+  <!-- Стили -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Евгений & Елена</h1>
+      <p class="date">6 июня 2026</p>
+    </div>
+    <div class="arrow">↓</div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="intro fade">
+    <h2 style=" color: rgb(172, 139, 120);">Дорогие гости!</h2>
+    <p style=" color: rgb(172, 139, 120);">Совсем скоро наступит день, который будет для нас особенным — 
+        ДЕНЬ НАШЕЙ СВАДЬБЫ!
+        Мы будем счастливы оказаться в окружении близких нам людей, 
+        поэтому приглашаем Вас разделить с нами этот праздник!</p>
+    <div class="photos">
+      <img src="./img/2.jpg" alt="">
+    </div>
+    <div class="calle">
+     <div class="calendar">
+        <h2 style=" color: rgb(172, 139, 120);">ИЮНЬ 2026</h2>
+        <div class="weekdays">
+          <span>ПН</span><span>ВТ</span><span>СР</span><span>ЧТ</span><span>ПТ</span><span>СБ</span><span>ВС</span>
+        </div>
+        <div class="days">
+          <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><img  class="heart" src="./img/Frame 1.svg" alt=""></span>
+          <span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span>
+          <span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span>
+          <span>21</span><span>22</span><span>23</span><span>24</span>
+          <span >25</span>
+          <span>26</span><span>27</span>
+          <span>28</span><span>29</span><span>30</span><span>31</span>
+        </div>
+      </div>
+      </div>
+    <h2>Место проведения</h2>
+   <p>Банкет - Банкетный зал «Золотой дворец» улица Профсоюзная, 33а</p>
+   <p>Церемония - Гимова, 3</p>
+  </section>
+
+  <!-- ПРОГРАММА -->
+  <section class="program fade">
+    <h2>Программа дня</h2>
+    <div class="program-item">
+      <time>11:40</time>
+      <p>Сбор гостей.Просим взять с собой хорошее настроение и улыбки.</p>
+    </div>
+    <div class="program-item">
+      <time>12:00</time>
+      <p>Церемония. Вы станете свидетелями трогательного момента.</p>
+    </div>
+    <div class="program-item">
+      <time>16:00</time>
+      <p>Банкет. Время вкусной еды, танцев и веселья!</p>
+    </div>
+  </section>
+
+
+
+  <!-- RSVP -->
+ <section class="rsvp fade">
+    <h2>Анкета</h2>
+    <p>Будем признательны, если вы сообщите о своём решении до 06.05.2026.</p>
+    <div id="rsvp-form">
+        <input type="text" id="name" placeholder="Имя и фамилия"><br>
+        <input type="text" id="alcohol" placeholder="Пожелания по алкоголю"><br>
+        <label>Планируете ли вы присутствовать?</label>
+        <div class="checkbox-group">
+            <label><input type="radio" name="attend" value="Да"> Да, с удовольствием!</label><br>
+            <label><input type="radio" name="attend" value="Нет"> К сожалению, не смогу</label>
+        </div>
+        <div style="display: flex;justify-content: center;flex-direction: column;">
+        <button type="button" id="btn-create">Отправить</button>
+        <div class="thanks">Спасибо! Ваш ответ отправлен ❤️</div>
+        </div>
+    </div>
+</section>
+
+  <!-- FOOTER -->
+  <footer>
+    © Евгений и Елена | 2026
+  </footer>
+
+  <script src="script.js"  ></script>
+  <script src="API.js" defer> </script>
+</body>
+</html>
