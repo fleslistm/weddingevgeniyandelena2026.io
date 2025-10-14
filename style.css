@@ -226,6 +226,7 @@ input[type="text"] {
   outline: none;
   font-size: 1rem;
 width: 100%;
+  background-color: #fff;
 }
 input:hover{
   border: none;
@@ -286,4 +287,5 @@ footer {
 @media (min-width: 1024px) {
   .hero h1 { font-size: 5rem; }
   .hero p { font-size: 2rem; }
+
 }
