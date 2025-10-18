@@ -48,7 +48,7 @@ p{
 .hero-content {
   position: relative;
   z-index: 1;
-  animation: fadeUp 2s ease forwards;
+  animation: fadeUp 1s ease forwards;
 }
 
 .hero h1 {
@@ -292,3 +292,4 @@ footer {
   .hero h1 { font-size: 5rem; }
   .hero p { font-size: 2rem; }
 }
+
